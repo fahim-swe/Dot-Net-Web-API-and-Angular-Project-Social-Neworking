@@ -1,0 +1,207 @@
+--: mkdir DattingApp
+--: dotnet --info
+
+
+: dotnet new sln
+: dotnet new webapi -o API
+: dotnet sln add API
+
+
+Entity Framework features
+An object relational mapper(ORM)
+Translates our code into SQL commands that update our tables in the database
+
+
+features
+querying
+change tracking
+saving
+concurrency
+transactions
+caching
+built in conventions
+configurations
+migrations
+
+
+Adding Entity Framework core
+Entity framework sql
+
+
+Shift+ctrl+p: 
+
+nuGet: 
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Sqlite
+
+setup on your project
+
+Install dotnet ef tool
+dotnet tool install --global dotnet-ef --version 6.0.5
+Entity Framework Core Tools for the .NET Command-Line Interface.
+
+Enables these commonly used dotnet-ef commands:
+dotnet ef migrations add
+dotnet ef migrations list
+dotnet ef migrations script
+dotnet ef dbcontext info
+dotnet ef dbcontext scaffold
+dotnet ef database drop
+dotnet ef database update
+
+
+
+// : dotnet ef migrations add InitiaCreate -o Data/Migrations
+
+
+Mysql123@
+
+mynewpassword
+
+
+mysql:
+sudo service mysql start
+
+
+
+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
+
+
+
+
+**/ Enable Mysql
+sudo service mysql start
+mysql -u root -p
+(enter password)
+show databases;
+show tables;
+describe Users;
+
+
+
+// ConfigureServices
+1) Add Scoped (scoped lifetime)
+2) Add singleTon (singleton pattern life time of application)
+3) Add Transient (service is created and distroyed / method is finished)
+
+**/ Authentication Basic
+1) How to store password in the database
+2) Using inheritance in C#
+3) Using the C# debugger
+4) using data transfer objects (DTOs)
+5) validation
+6) JSON Web Tokens (JWTs)
+7) Using services in C#
+9) middleware
+9) extension methods- DRY
+
+
+
+Hashing + Salting password
+
+User Table
+ID--------------Name-----------PasswordHash-----------PasswordSalt
+1               fahim          1lskhdfkljalskdfj      adksfklsjaldfkjs
+2               Mahmud         lskdjflksjdfldjsl      skldjflsdjdflks
+
+In Class AppUser.css 
+public byte[] PasswordHash {get; set;}
+public byte[] PasswordSalt {get; set;}
+
+in terminal : dotnet ef migrations add UserPasswordAdded
+
+
+6) JSON Web Tokens (JWTs)
+Industry Standard for token(RFC 7519)
+Self-contained and can contain 
+-> Credentials
+-> Claims
+-> Other information
+
+
+Token authentication
+Client: Sends username + password ---------------------->
+        <------------------------Validate credentials and return a JWT
+        Sents JWT with further requests ----------------->
+        <-- Server varifies JWT and sends back response
+
+Benefites of JWT
+No session to manage- JWTs are self contained tokens
+Portable -> A single token can be used with multiple backends
+No cookies required - mobile friendly
+Preformance _ Once a token is issued, there is no need to make a database request to verify a users authentication
+
+
+go Nuget Galary add:  System.IdentityModel.Tokens.Jwt
+
+
+
+
+
+Auth: 
+Microsoft.AspNetCore.Authentication.JwtBearer by Microsoft
+
+
+
+Angular Section-
+1) using the angular CLI
+2) how to create a new angular app
+3) the angular project files
+4) the angular bootstrap process
+5) using the angular HTTP client service
+6) running an angular app over https
+7) how to add packages using NPM
+
+-> ng --version
+-> node --version
+-> ng new client --strict false (create new project)
+-> ng serve (running angular project)
+
+
+
+
+Making http requests in angular
+
+// add HttpClient in app.module
+
+// in app.component.ts
+import {HttpClient} from '@angular/common/http';
+
+constructor(private http: HttpClient){}
+
+
+// implementing CROD in API
+
+
+
+ng add ngx-bootstrap
+npm install font-awesome
+
+
+** create a nav bar
+-> ng g -h (list of types file)
+-> cd src
+-> cd app
+-> ng g c nav --skip-tests
+
+
+
+// Introduction to angular template forms
+
+-- > add to app.modules.ts
+
+
+
+// angular service (single ton)
+ng g s account --skip-tests
+\
+
+
+
+
+
+
+
+
+
+// Generating Json data
