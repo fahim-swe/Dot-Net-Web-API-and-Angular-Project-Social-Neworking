@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/fahim/Documents/Dot net web API/Chatting Application/API/API.csproj": {}
+    "/home/fahim/Documents/Dot net web API/Chatting Application/Dot-Net-Web-API-and-Angular-Project-Social-Neworking/API/API.csproj": {}
   },
   "projects": {
-    "/home/fahim/Documents/Dot net web API/Chatting Application/API/API.csproj": {
+    "/home/fahim/Documents/Dot net web API/Chatting Application/Dot-Net-Web-API-and-Angular-Project-Social-Neworking/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fahim/Documents/Dot net web API/Chatting Application/API/API.csproj",
+        "projectUniqueName": "/home/fahim/Documents/Dot net web API/Chatting Application/Dot-Net-Web-API-and-Angular-Project-Social-Neworking/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/home/fahim/Documents/Dot net web API/Chatting Application/API/API.csproj",
+        "projectPath": "/home/fahim/Documents/Dot net web API/Chatting Application/Dot-Net-Web-API-and-Angular-Project-Social-Neworking/API/API.csproj",
         "packagesPath": "/home/fahim/.nuget/packages/",
-        "outputPath": "/home/fahim/Documents/Dot net web API/Chatting Application/API/obj/",
+        "outputPath": "/home/fahim/Documents/Dot net web API/Chatting Application/Dot-Net-Web-API-and-Angular-Project-Social-Neworking/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fahim/.nuget/NuGet/NuGet.Config"

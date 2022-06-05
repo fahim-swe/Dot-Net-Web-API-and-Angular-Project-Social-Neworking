@@ -1,0 +1,32 @@
+Angular Node
+1) Creating components using the angular CLI
+2) using angular template forms
+3) using angular services
+4) understanding observables
+5) using angular structural directives to conditionally 
+display element on a page
+6) component communication from parent to child
+7) component communication from child to parent
+
+** making http request angular
+import { HttpClientModule } from '@angular/common/http';
+
+ imports: [
+    HttpClientModule,
+  ],
+
+-- Get all users
+in app.component.ts
+
+
+** Creating nav bar
+ng g -h
+ng g c nav --skip-tests
+
+
+
+
+***** Froms template
+import { FormsModule } from '@angular/forms';
+
+FormsModule
